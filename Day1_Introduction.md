@@ -1,10 +1,10 @@
 # **ETHICAL HACKING**
 
-<img src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2020/10/Pharming-Attack-Hacker-1.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5" alt="MarineGEO circle logo" style="height:150px; width:210px;"/>
+<img src="https://www.mumbailive.com/images/media/images/hacking_1657092097039.jpg?" alt="Everything You Need to Know About Ethical Hacking" title="Everything You Need to Know About Ethical Hacking" style="height:150px; width:210px;"/>
 
-# ❕Things not to expect from this course ❕
+# Things not to expect from this course ❕
 
-<img src="https://previews.123rf.com/images/nerthuz/nerthuz1302/nerthuz130200052/18849663-3d-human-in-warning-pose-don-t-do-it.jpg" style="height:100px; width:100px;"/>
+<img src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-1185282377.jpg?" style="color: transparent; width: 100%; height: auto;"/>
 
 - You don't **Hack** because you know hacking
 - You can't be **Hacker** in 1 night or with this course only
@@ -19,7 +19,7 @@
 
 #
 
-<img src="https://i.pinimg.com/564x/01/e5/00/01e500fca29c045d432b64f285f9c229.jpg" style="height:200px; width:230px;"/>
+<img src="https://wac-cdn.atlassian.com/dam/jcr:f6948a92-f446-466f-8783-1dd1cbcc661a/hero.svg?cdnVersion=684" loading="lazy" alt="What is Git" style="height:200px; width:230px;"/>
 
 > **GITHUB** :- is a website( server) which your git is hosted on.
 
@@ -27,7 +27,7 @@
 
 #
 
-<img src="https://www.space4water.org/s4w/web/sites/default/files/images/software/logos/2020-07/Ei-sc-github.svg_.png" style="height:250px; width:270px;"/>
+<img src="https://miro.medium.com/max/875/0*c43pw7UiQgpfjDCl.jpg" style="height:250px; width:270px;"/>
 
 # Introduction to Ethical Hacking
 
@@ -79,7 +79,7 @@ Hacking is refered to exploiting system **vulnerabilities** and compromising sec
 - Linux
 - System Admin
 
-# 🪜 Phases of Hacking
+# Phases of Hacking
 
 - Reconnaissance
 - Scanning
@@ -87,11 +87,9 @@ Hacking is refered to exploiting system **vulnerabilities** and compromising sec
 - Maintaining Access
 - Clearing Tracks or Logs
 
-> # what is penetration testing
+> # What is penetration testing
 
 - it is a method of evaluating the security of an information system or network by simulating an attack to find **vulnerabilities** and other things
-
-<img src="https://brightsec.com/wp-content/uploads/2021/02/Penetration-Testing-Tools.png" style="height:90px; width:150px;">
 
 # Types of pentesting
 

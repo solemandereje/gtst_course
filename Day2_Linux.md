@@ -1,6 +1,6 @@
 # **Introduction to Linux**
 
-# What is Linux ❓
+# What is Linux
 
 - Linux is a **kernel.**
 
@@ -19,7 +19,7 @@
 - ZSH
 - FISH
 
-# What is OS-operating system ❓
+# What is OS-operating system
 
 > OS- operating system means the main software part of computer that helps to work on. and which contains:
 
@@ -58,7 +58,7 @@
 
 ### Android
 
-# So how can we use It ❓
+# So how can we use It
 
 - main os/ main boot
 - dual boot
