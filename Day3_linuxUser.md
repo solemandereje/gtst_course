@@ -220,3 +220,9 @@
   > > - DESCRIPTION
   > >   > - It is used to change current working
   > >   >   directory.
+- Pwd / print working directory
+  > > - SYNOPSIS
+  > >   > - pwd [-options]
+  > > - DESCRIPTION
+  > >   > - It prints the path of the working directory,
+  > >   >   starting from the root.
