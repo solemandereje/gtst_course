@@ -4,16 +4,16 @@
 
 # Things not to expect from this course ❕
 
-<img src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-1185282377.jpg?" style="color: transparent; width: 100%; height: auto;"/>
+<img src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-1185282377.jpg?" style="color: transparent; width: 60%; height: 10%;"/>
 
-- You don't **Hack** because you know hacking
-- You can't be **Hacker** in 1 night or with this course only
-- Don't be afraid to learn new things .... **JUST DO IT **
-- Try to simplify everything not make them hard
+- You don't <font color="red" >**Hack** </font> because you know hacking
+- You can't be <font color="red" >**Hacker** </font> in 1 night or with this course only
+- Don't be afraid to learn new things .... <font color="red" > **JUST DO IT ** </font>
+- Try to <font color="green" > simplify everything </font>not make them hard
 - You can't be happy always
 - Every thing that seems useless is useful
 
-# git and GITHUB
+# Git and GITHUB
 
 > **git** :- is a version control system or tool.
 
@@ -35,13 +35,19 @@ Hacking is refered to exploiting system **vulnerabilities** and compromising sec
 
 > Types of hackers based on **ETHICS**
 
+<font color="black" >
 - BLACK HAT HACKERS
+</font>
 
 #
 
  <img src="https://media.licdn.com/dms/image/C4E12AQHWyIdZJDFDNQ/article-cover_image-shrink_423_752/0/1520129196558?e=1676505600&v=beta&t=uC7rlkNZ0xa6ErN1mkjkkIe5iT3Eq8KT3dz_uHJiteQ" style="height:90px; width:90px;">
 
+<font color="white" >
+
 - WHITE HAT HACKERS
+
+</font>
 
 #
 
@@ -49,7 +55,9 @@ Hacking is refered to exploiting system **vulnerabilities** and compromising sec
 
 #
 
+<font color="grey" >
 - GREY HAT HACKERS
+</font>
 
 #
 
@@ -66,7 +74,7 @@ Hacking is refered to exploiting system **vulnerabilities** and compromising sec
 
 # Elements of Information Security
 
-> **CIA**
+> **CIA Traid**
 
 - Confidentiality
 - Integrity
@@ -78,20 +86,23 @@ Hacking is refered to exploiting system **vulnerabilities** and compromising sec
 - Networking
 - Linux
 - System Admin
+  <font color="blue" >
 
 # Phases of Hacking
 
-- Reconnaissance
-- Scanning
-- Gaining Access
-- Maintaining Access
-- Clearing Tracks or Logs
+</font>
+
+1. Reconnaissance
+2. Scanning
+3. Gaining Access
+4. Maintaining Access
+5. Clearing Tracks or Logs
 
 > # What is penetration testing
 
 - it is a method of evaluating the security of an information system or network by simulating an attack to find **vulnerabilities** and other things
 
-# Types of pentesting
+# Types of Pentesting
 
 - BLACK BOX PENTESTING
 - WHITE BOX PENTESTING

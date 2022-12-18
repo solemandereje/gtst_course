@@ -58,7 +58,7 @@
 
 ### Android
 
-# So how can we use It
+# So how can we use It ?
 
 - main os/ main boot
 - dual boot
