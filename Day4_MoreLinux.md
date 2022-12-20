@@ -2,11 +2,11 @@
 
 ## Topics
 
-- Linux file Hierarchy
-- VIM
-- NANO
-- Linux User management
-- Find command
+🔹 Linux file Hierarchy \
+🔹 VIM \
+🔹 NANO \
+🔹 Linux User management \
+🔹 Find command
 
 ## **Linux File Hierarchy**
 
