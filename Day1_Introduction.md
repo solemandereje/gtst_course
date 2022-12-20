@@ -33,35 +33,22 @@
 
 Hacking is refered to exploiting system **vulnerabilities** and compromising security controls to gain **UNAUTHORIZED** access to the system.
 
-> Types of hackers based on **ETHICS**
+# Types of Hackers based on **ETHICS**
 
 <font color="black" >
-- BLACK HAT HACKERS
+🅱️LACK HAT HACKERS 
 </font>
-
-#
-
- <img src="https://media.licdn.com/dms/image/C4E12AQHWyIdZJDFDNQ/article-cover_image-shrink_423_752/0/1520129196558?e=1676505600&v=beta&t=uC7rlkNZ0xa6ErN1mkjkkIe5iT3Eq8KT3dz_uHJiteQ" style="height:90px; width:90px;">
 
 <font color="white" >
-
-- WHITE HAT HACKERS
+- :WHITE HAT HACKERS
 
 </font>
-
-#
-
-<img src="https://www.cybermagonline.com/img/sayfa/1553088893-gorsel-1.png" style="height:90px; width:90px;">
 
 #
 
 <font color="grey" >
-- GREY HAT HACKERS
+- :G GREY HAT HACKERS
 </font>
-
-#
-
-<img src="https://as2.ftcdn.net/v2/jpg/02/06/02/65/1000_F_206026589_xFGYv3fvvYQbuTPhnq662FYGML342Q5p.jpg" style="height:90px; width:90px;">
 
 #
 

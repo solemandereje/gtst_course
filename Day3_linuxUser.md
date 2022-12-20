@@ -9,85 +9,16 @@
 1. Information Gathering
 
    > Tools for information gathering, in system network, host.
-
-   > > - acccheck
-   > > - ace-voip
-   > > - Amap
-   > > - arp-scan
-   > > - Automater
-   > > - bing-ip2hosts
-   > > - braa
-   > > - Bro
-   > > - CaseFile
-   > > - CDPSnarf
-   > > - cisco-torch
-   > > - Cookie Cadger
-   > > - copy-router-config
-   > > - DMitry
-   > >   -dnmap
-   > > - dnsenum
-   > > - dnsmap
-   > > - DNSRecon
-   > > - dnstracer
-   > > - dnswalk
-   > > - DotDotPwn
-   > > - enum4linux
-   > > - enumIAX
-   > > - exploitdb
-   > > - Fierce
-   > > - Firewalk
-   > > - flashlight
-   > > - fragroute
-   > > - fragrouter
-   > > - Ghost Phisher
-   > > - GoLismero
-   > > - goofile
-   > > - hping3
-   > > - HTTrack
-   > > - Insiderer
-   > > - InTrace
-   > > - Intrigue-core
-   > > - iptodomain
-   > > - iSMTP
-   > >   -IVRE
-   > > - lbd
-   > > - Maltego
-   > > - Masscan
-   > > - MassMine
-   > > - Metagoofil
-   > > - Miranda
-   > > - NetBIOS Share Scanner
-   > > - NBTscan
-   > > - nbtscan-unixwiz
-   > > - Nmap
-   > > - NMBscan
-   > > - ntop
-   > > - OSRFramework
+   >
+   > > - dmitry
+   > > - ike-scan
+   > > - legion
+   > > - maltego
+   > > - netdiscover
+   > > - nmap
    > > - p0f
-   > > - Parsero
-   > > - Recon-ng
-   > > - SET
-   > > - smtp-user-enum
-   > > - snmpcheck
-   > > - Sn1per
-   > > - SPARTA
-   > > - SpiderFoot
-   > > - sslcaudit
-   > > - SSLsplit
-   > > - SSLstrip (SSLStrip+)
-   > > - SSLyze
-   > > - Sublist3r
-   > > - THC-IPV6
-   > > - theHarvester
-   > > - TLSSLed
-   > > - twofi
-   > > - URLCrazy
-   > > - WebXploiter
-   > > - wig
-   > > - Wireshark
-   > > - WOL-E
-   > > - Xplico
-   > > - ZMap
+   > > - recon-ng
+   > > - spiderfoot
 
 2. Vulnerability Analysis
 
@@ -226,3 +157,75 @@
   > > - DESCRIPTION
   > >   > - It prints the path of the working directory,
   > >   >   starting from the root.
+- echo
+  > > - SYNOPSIS
+  > >   > - echo [option] [string]
+  > > - DESCRIPTION
+  > >   > - echo command in linux is used to
+  > >   >   display line of text/string that are passed as an argument . This is a built in command that is mostly used in shell scripts and batch files to output status text to the screen or a file.
+- cat / head / tail / less
+  > - SYNOPSIS
+  >   > - cat [FILE]...
+  > - DESCRIPTION
+  >   > - Used to show the content of a file
+- Touch
+  > - SYNOPSIS
+  >   > - touch [FILE1] [FILE2] [FILE3]
+  > - DESCRIPTION
+  >   > - Creates any kind of Files with the name you gave it. With empty inside.
+- Mkdir / make directory
+  > - SYNOPSIS
+  >   > - mkdir [FOLDER-NAME1] [FOLDER-NAME2] [FOLDER-NAME3]
+  > - DESCRIPTION
+  >   > - Creates Folder with the name u gave it.
+  > - 🔔 DON’T forget to add the “ “ when you
+  >   are using folders with space between
+  >   them.
+- clear
+  > - SYNOPSIS
+  >   > - clear
+  > - DESCRIPTION
+  >   > - Clears your screen.
+- rm / remove
+  > - SYNOPSIS
+  >   > - rm [FILE1] [FILE2] [FILE3]
+  > - DESCRIPTION
+  >   > - Remove file.
+- Cp| mv / copy,move
+  > - SYNOPSIS
+  >   > - cp [oldFILEplace] [newfilePlace]
+  >   > - Mv [oldFILEplace] [newfilePlace]
+  >   - DESCRIPTION
+  >     > - Copy/move files & folders.
+- grep - global search for regular expression
+  > - grep [options] pattern [files]
+  > - The grep filter searches a file for a
+  >   particular pattern of characters, and
+  >   displays all lines that contain that pattern. The pattern that is searched in the file is referred to as the regular expression
+  > - grep: stands for global search for regular expression and print out).
+  > - Greep options:
+  >   > - grep -i “search” file - case insensitive
+  >   > - grep -c “search” file - count numbers
+  >   > - grep -l “search” \* - displays filename
+  >   > - grep -R “search” foldername - search text in folders
+- Wc - word count
+  > - SYNOPSIS
+  >
+  >   > - wc [OPTION]... [FILE]...
+  >
+  > - DESCRIPTION
+  >   > - It is used to find out number of lines, word count, byte and characters count in the files specified in the file arguments.
+- Multiple Command Executions
+  > - You can run/ execute multiple commands in 1 line.
+  >
+  > - using 3 methods:
+  >   > - And ( && )
+  >   > - Or ( || )
+  >   > - Pipeing( | )
+- AND ( && )
+  > - On AND operation All commands you entered will be
+  >   executed. If both are working without error.
+- OR ( || )
+  > - On OR operation the command will be executed. If it have error or not
+  - Pipeing ( | )
+    > - On pipe, will help you run commands by using the output of the 1st command as the input for the next one.

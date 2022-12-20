@@ -4,13 +4,13 @@
 
 - Linux is a **kernel.**
 
-> **Kernel** is a program that used to meet your software and hardware. and allocate some resources.
+> - **Kernel** is a program that used to meet your software and hardware. and allocate some resources.
 
 #
 
 # What is Shell ?
 
-> **shell** is a command line interpreter. it translates commands entered by the user and converts them in to a language that is understood by the kernel.
+- **Shell** is a command line interpreter. it translates commands entered by the user and converts them in to a language that is understood by the kernel.
 
 ### Types of **SHELL**
 
@@ -21,15 +21,14 @@
 
 # What is OS-operating system
 
-> OS- operating system means the main software part of computer that helps to work on. and which contains:
+- OS- operating system means the main software part of computer that helps to work on. and which contains:
+  > - kernel
+  > - softwares
+  > - desktop environment
+  > - file extensions
+  > - window manager
 
-- kernel
-- softwares
-- desktop environment
-- file extensions
-- window manager
-
-### Types of Desktop environment on LINUX
+## Types of Desktop environment on LINUX
 
 - mate
 - gnome
@@ -38,32 +37,32 @@
 
 # LINUX Distros
 
-### Debian
+- ### Debian
 
-- kali
-- ubuntu
-- parrot
+  > - kali
+  > - ubuntu
+  > - parrot
 
-### Arch
+- ### Arch
 
-- black
-- arch
-- garuda
+  > - black
+  > - arch
+  > - garuda
 
-### Fedura
+- ### Fedura
 
-### Redhat
+- ### Redhat
 
-### Gentoo
+- ### Gentoo
 
-### Android
+- ### Android
 
-# So how can we use It ?
+# So how can we use It❔
 
-- main os/ main boot
-- dual boot
-- live boot
-- cloud terminal
-- virtual machine
-- WSL
-- termux -Android
+🔶 main os/ main boot \
+🔶dual boot \
+🔶live boot \
+🔶 cloud terminal \
+🔶 virtual machine \
+🔶 WSL \
+🔶 termux -Android
