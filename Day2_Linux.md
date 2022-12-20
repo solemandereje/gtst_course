@@ -43,7 +43,7 @@
   > - ubuntu
   > - parrot
 
-- ### Arch
+- ### Arch Based Distro
 
   > - black
   > - arch
