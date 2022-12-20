@@ -1,4 +1,4 @@
-# Linux for User
+# **Linux for User**
 
 ## Overview of kali linux
 
@@ -6,7 +6,7 @@
 
 # kali linux Gnome Main Screen
 
-1. Information Gathering
+1. **Information Gathering**
 
    > Tools for information gathering, in system network, host.
    >
@@ -20,7 +20,7 @@
    > > - recon-ng
    > > - spiderfoot
 
-2. Vulnerability Analysis
+2. **Vulnerability Analysis**
 
    > Tools for Finding Vulnerabilities
    >
@@ -30,7 +30,7 @@
    > > - nmap
    > > - unix-privesc-check
 
-3. Web Application Analysis
+3. **Web Application Analysis**
    > Tools for Finding Vulnerabilities and exploits on websites.
    >
    > > - Burp Suite
@@ -41,7 +41,7 @@
    > > - sqlmap
    > > - webscarab
    > > - ZAP
-4. Database Assessment
+4. **Database Assessment**
 
 - Tools for Finding Vulnerabilities and exploits on Databases.
   > > - jsql injection
@@ -55,7 +55,7 @@
   > > - sqlsus
   > > - tnscmd10g
 
-5. Password Attacks
+5. **Password Attacks**
 
 - Tools for exploiting
   Passwords for login,websites,application,
@@ -69,7 +69,7 @@
   > > - ncrack
   > > - ophcrack
 
-6. Wireless Attacks
+6. **Wireless Attacks**
 
 - Tools for exploiting Wireless Systems like wifi, bluetooth..
   > > - aircrack -ng
@@ -77,38 +77,38 @@
   > > -
   > > -
 
-7. Reverse Engineering
+7. **Reverse Engineering**
 
 - Tools for exploiting Softwares, Mobile
   Applications and any binary files
   > > - apktool
 
-8. Exploitation Tools
+8. **Exploitation Tools**
 
 - Tools for exploiting
   Softwares, Mobile ,Computers ,websites and
   any things.
   > > - armitag
 
-9. Sniffing & Spoofing
+9. **Sniffing & Spoofing**
 
 - Tools for Listening or hijacking networks
   > > - driftnet
 
-10. POST exploitation
+10. **POST exploitation**
 
 - Tools for Maintaining our access. Used after
   exploiting a system.
   > > - Backdoor -f
 
-11. Forensics
+11. **Forensics**
 
 - Tools for Doing researches
   and investigate a Cyber
   Attacks.
   > > - autopsy
 
-12. Reporting tools
+12. **Reporting tools**
 
 - Tools for Report
   preparation. After some
@@ -118,23 +118,23 @@
   you.
   > > - cutycapt
 
-13. Social Engineering tools
+13. **Social Engineering tools**
 
 - Tools Used for Social
   Engineering attacks.
   > > - backdoor -f
 
-14. System Services
+14. **System Services**
 
 - Buttons used to start some
   services.
 
-15. Usually used applications
+15. **Usually used applications**
 
 - Softwares for some basic
   purposes
 
-# Linux Commands
+# **Linux Commands**
 
 - Linux Systems uses shell. The shell help us to Communicate with the kernel and helps to execute codes.
 
