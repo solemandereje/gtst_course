@@ -33,31 +33,22 @@
 
 Hacking is refered to exploiting system **vulnerabilities** and compromising security controls to gain **UNAUTHORIZED** access to the system.
 
-# Types of Hackers based on **ETHICS**
+# Types of **Hackers**
 
-<font color="black" >
-🅱️LACK HAT HACKERS 
-</font>
+Based on **ETHICS:**:
 
-<font color="white" >
-- :WHITE HAT HACKERS
+- BLACK HAT HACKERS
+- WHITE HAT HACKERS
+- GREY HAT HACKERS
 
-</font>
-
-#
-
-<font color="grey" >
-- :G GREY HAT HACKERS
-</font>
-
-#
-
-> Types of hackers based on skill
+Based on **SKILLS:**:
 
 - Newbie/ NOOB
 - Script Kiddie
 - Hacker
 - Elite / Pro Hacker
+
+#
 
 # Elements of Information Security
 
