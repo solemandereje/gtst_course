@@ -8,17 +8,16 @@
 
 1. **Information Gathering**
 
-   > Tools for information gathering, in system network, host.
-   >
-   > > - dmitry
-   > > - ike-scan
-   > > - legion
-   > > - maltego
-   > > - netdiscover
-   > > - nmap
-   > > - p0f
-   > > - recon-ng
-   > > - spiderfoot
+> - Tools for information gathering, in system network, host.
+>   > - dmitry
+>   > - ike-scan
+>   > - legion
+>   > - maltego
+>   > - netdiscover
+>   > - nmap
+>   > - p0f
+>   > - recon-ng
+>   > - spiderfoot
 
 2. **Vulnerability Analysis**
 
