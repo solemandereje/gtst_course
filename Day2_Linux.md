@@ -37,7 +37,7 @@
 
 # LINUX Distros
 
-- ### Debian
+- ### Debian Based Distro
 
   > - kali
   > - ubuntu
