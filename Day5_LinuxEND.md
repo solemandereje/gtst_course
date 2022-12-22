@@ -1,4 +1,4 @@
-# Advanced Linux User!
+# **Advanced Linux User ❗** 🔚
 
 # Today's class
 
@@ -91,7 +91,7 @@
   > - chmod -x filename -> removing execute permission for all
   > - chmod a+rwx , u-rw , g-x , o-xw filename -> gives rwx for all and removes something from all
 
-  **B) Parameters in Number** \
+  **B) Parameters in Number**
 
   > - chmod 621 filename -> 6 for user, 2 for group, 1 for other ( 6 = 4+2 ), 6 =r w
   > - chmod 777 filename -> 7 for users, 7 for group , 7 for others (7 =4+2+1), 7 = rwx
