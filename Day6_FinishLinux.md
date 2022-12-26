@@ -30,11 +30,13 @@
   dependencies.
 - Example:
 
-> - 1.  Python: to install python modules we use -> pip install [modulename]
->       i. For requirements file -> pip install -r requirements.txt
+> 1.  Python: to install python modules we use -> pip install [modulename]
 >
-> - 2. Go: to install go modules -> go install [modulename]
-> - 3. Ruby: to install ruby modules -> gem install [modulename]
+> > - i. For requirements file -> pip install -r requirements.txt
+>
+> 2.  Go: to install go modules -> go install [modulename]
+>
+> 3.  Ruby: to install ruby modules -> gem install [modulename]
 
 ## Python installation
 
