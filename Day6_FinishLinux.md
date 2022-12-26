@@ -11,7 +11,7 @@
 - Wget
 - find
 
-# Script installation
+# **Script installation**
 
 #
 
@@ -54,7 +54,7 @@
   google/youtube { detail we will see this while we
   learn Footprinting }
 
-# Help on linux about commands
+# **Help on linux about commands**
 
 - man (manual)
   > - This will give you the whole manual and instruction of a tool or command.
@@ -66,7 +66,7 @@
   >   > - [yourcommand] -help
   >   > - [yourcommand] - -help
 
-# Linux Processes & Services
+# **Linux Processes & Services**
 
 - As we interact with Linux, we create numbered
   instances of running programs called
@@ -159,14 +159,14 @@
   >   > - ^A then [arrow]
 - … for more you can google but be aware of our super key is ^A
 
-# Wget
+# **Wget**
 
 - Is a tool used to download files from websites/servers
 - Syntax
   > - wget [options] [link]
 - wget https://tldp.org/LDP/intro-linux/intro-linux.pdf
 
-# find
+# **find**
 
 - ON terminal if you want to search for files/folders/musics/videos, we can use find
   command.
@@ -178,5 +178,10 @@
   > - find / -name “linux”
   > - find /home -perm 777
   > - find -type f | find -type d
+  >   <br> <br> <br> <br>
 
-              🔚  --- LINUX IS FUN! ---
+#
+
+                  --- LINUX IS FUN! --- 🔚
+
+#
