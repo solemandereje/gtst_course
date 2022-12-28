@@ -49,7 +49,7 @@
   > - arch
   > - garuda
 
-- ### Fedura
+- ### Fedora
 
 - ### Redhat
 
