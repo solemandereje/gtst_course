@@ -172,6 +172,9 @@
 
 ## Testing
 
+- run and debuggin with vscode
+- using pytest
+
 ## Outputs and COmments
 
 - On python, to display output we use keyword ‘print’
