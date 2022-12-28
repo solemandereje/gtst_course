@@ -49,7 +49,7 @@
   > - arch
   > - garuda
 
-- ### Fedora
+- ### Fedora - other distro
 
 - ### Redhat
 
