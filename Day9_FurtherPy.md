@@ -1,8 +1,8 @@
-# Further on Python {#identifier .heading}
+# Further on Python
 
 # Topics
 
-- [ ] Functions,recursion
+- Functions,recursion
 - lambda → Map/filter
 - OOP & POP
 - Class & objects
@@ -27,15 +27,31 @@
   ## Creating FUnctions
   - Syntax: It have body like if else statements also have
     body
+    > def function_name(): \
+    >
+    > > #function body
 
 ## Function Arguments
 
 - They are used to take value while calling and insert it inside the function
+- syntax:
+  > def add_numbers(num1,num2): \
+  >
+  > > sum = num1 + num2 \
+  > > print(sum) \
+  > >  #function call with two values
+  > > add_numbers(5,4) \
+  > > #output : Sum :9
 
 ## Return statement
 
 - A Python function may or may not return a value.
 - If we want our function to return some value to a function call, we usebthe return statement
+- syntax:
+  > def add_numbers(): \
+  >
+  > > ..... \
+  > > return sum
 - As i told you every things are functions on python
   > - So print() is function also input() is len(), everything
   > - When we do we are calling the function and giving it an argument.
@@ -46,6 +62,12 @@
 - Recursion is process of defining something in terms of itself.
 - In Python, we know that a function can call other functions. It is even possible for the
   function to call itself. These types of construct are termed as recursive functions.
+- syntax 👍
+  > def recurse(): \
+  > ... \
+  > recurse() \
+  > .....
+  > recurse()
 
 ## Advantages of Recursion
 
@@ -84,7 +106,8 @@
 ## Append
 
 - Append used to add some value to a list.
-- Syntax
+- Syntax:
+  > my_list.append(new value)
 
 # Object-Oriented Programming / OOP
 
@@ -102,7 +125,18 @@
 ● a class is a blueprint for that object.
 ● Syntax:
 
+> class computer:
+>
+> > #creating atribute \
+> > name="" \
+> > cpu=""
+
 - After you create the Blueprint, now you can create the objects
+  > #creating object based on the blueprint
+  >
+  > > john_computer=computer()
+  > > john_computer.name="hp laptop"
+  > > john_computer.cpu="intel core i5"
 
 ## Creating Objects
 
@@ -118,6 +152,10 @@
   are classes,
 - ‘a’ and ‘Nathan_Computer’ are objects
 - computer and int are classes
+  > john_computer=computer()
+  > print(type(john_computer))
+  >
+  > > #output= class
 
 ## Giving Behaviours == Creating Methods
 
@@ -131,9 +169,16 @@
 # Python Constructors
 
 - Earlier we assigned a default value to a class attribute,However, we can also initialize values using the constructors.
-- Here, **init**() is the constructor function that is called whenever a new object of that class is instantiated.
+- Here, \***\*\_\_init\_\_\*\***() is the constructor function that is called whenever a new object of that class is instantiated.
 - The constructor above initializes the value of the name attribute. We have used the self.name to refer to the name attribute of the bike1 object.
 - If we use a constructor to initialize values inside a class, we need to pass the corresponding value during the object creation of the class.
+- syntax:
+  > class Bike: \
+  > #constructor function \
+  > def \_\_init\_\_ (self, name=""):
+  >
+  > > slef.name = name
+  > > bike1=Bike()
 
 # Python Inheritance
 
