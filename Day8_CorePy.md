@@ -14,9 +14,19 @@
 # Indexing
 
 - On lists, we have seen about index numbers.
+  > languages=["python","swoft","c++"]
+  > index --==> 0 |1 |2 |3
 - Negative indexing: used to in Python to begin slicing from the end of the string i.e. the last
+  > languages=["python","swoft","c++"]
+  > index -----> 0 |1 |2 |3
+  >
+  > negativeindex --> -3 |-2 |-1
 - Note: The list index always starts with 0. Hence, the first element of a list is present at index 0, not 1
 - Calling texts by indexes also works for strings & tuples
+  > name="john" \
+  >  print(name[2]) \
+  >
+  > #### Output:h
 
 # Slicing
 
@@ -33,6 +43,10 @@
 - Python uses default step as 1, sometimes no need to tell/put it
 - Also default stopping index is the final, still no need to tell for this kinda
   purpose
+  > name="No 1 is john" \
+  >  print(name[8:11:1]) \
+  >
+  > #### Output:john
 
 # User Input handling
 
@@ -50,12 +64,17 @@
    - This help us to get the input from the command lines
    - Shell: python gtst.py arg1 arg2 arg3
    - Syntax:
+     > > import sys \
+     > >  name = sys.argv[1] \
+     > > print(f"hello {name} !")
+     >
+     > #### Output:hello john
 
 # Operators
 
 - Operators are special symbols that perform operations on
   variables and values. For example,
-- There are lots of operators type on python:
+- There are lots of operators type on python: \
   a. Arithmetic operators \
   b. Assignment Operators \
   c. Comparison Operators \
@@ -67,33 +86,86 @@
 
 - They are a simple maths operations
   Inputs have to be in int,eval, float only
+  | Operator | Operation | Example |
+  | :--- | :----: | ---: |
+  | + | Addtion | 5+2 =7 |
+  | - | Substraction | 4-2=2 |
+  | \* | Multiplication | 2\*3 = 6 |
+  | / | Division | 4/2=2 |
+  | % | Modulo | 5%2 = 1 |
+  | \*\* | power | 4\*\*2=16 |
 
 ## B) Assignment Operators
 
 - Assignment operators are used to assign values to variables
 - You do the arithmetic operators 1st , then the equal sign.
+  | Operator | Name | Example |
+  | :--- | :----: | ---: |
+  | = | Assignment Operator |a = 7|
+  | += | Addition Assignment | a += 1 # a = a + 1 |
+  | -= | Subtraction Assignment |a -= 3 # a = a - 3|
+  | \*= | Multiplication Assignment |a _= 4 # a = a _ 4|
+  | /= | Division Assignment |a /= 3 # a = a / 3|
+  | %= | Remainder Assignment |a %= 10 # a = a % 10|
+  | \*\*= | Exponent Assignment |a **= 10 # a = a ** 10|
 
 ## C) Comparison operators
 
 - Used to compare to variables and return boolean result
 - Boolean means either TRUE or FALSE
+  | Operator | Meaning | Example |
+  | :--- | :----: | ---: |
+  | == | Is Equal To |3 == 5 gives us False|
+  | != | Not Equal To |3 != 5 gives us True|
+  | > | Greater Than |3 > 5 gives us False|
+  | < | Less Than |3 == 5 gives us False|
+  | >= | Greater Than or Equal To |3 >= 5 give us False|
+  | <= | Less Than or Equal To |3 <= 5 gives us True|
 
 ## D) Logical Operators
 
 - They are used to check if an expression is TRUE or FALSE
 - They use Truth tables to compare
+  | Operator | Example | Meaning |
+  | :--- | :----: | ---: |
+  | and | a &b |**Logical AND**:True only if both the operands are True|
+  | or | a or b |**Logical OR**:True if at least one of the operands is True|
+  | not | not a |**Logical NOT**:True if the operand is False and vice-versa|
 
 ### Truth table for and / እና ( && )
 
 - Only True and True is True
 
+  # Truth table for **and**
+
+  | A     |   B   | A and B |
+  | :---- | :---: | ------: |
+  | True  | True  |    True |
+  | True  | False |   False |
+  | False | True  |   False |
+  | False | False |   False |
+
 ### Truth table for or / ወይም ( || )
 
 - Only False and False is False
 
+  # Truth table for **or**
+
+  | **A** | **B** | **A** or **B** |
+  | :---- | :---: | -------------: |
+  | True  | True  |           True |
+  | True  | False |           True |
+  | False | True  |           True |
+  | False | False |          False |
+
 ### Truth table for not / አይደለም
 
 - It is just opposite.
+  # Truth tabel for **not**
+  | A     | not A |
+  | :---- | ----: |
+  | True  | False |
+  | False |  True |
 
 ## Bitwise Operators
 
@@ -120,29 +192,37 @@
 
 - It will convert the first value to binary and it will reverse each bit
   then converts to decimal.
-- In simple maths, it will add 1 to the number and then makes it
-  negative.
+- In simple maths, it will add 1 to the number and then makes it negative.
+  > ~12 => -(12+1) = -13
 
 ## And( & )
 
 - You can add 0 before the binary of any number if it is not 4 digit binary
 - bin(7) -> 111 , but we can do 0111 too
+  > 10&7 =2
 
 ## OR ( | )
 
 -SAME AS AND but the logic operator will be changed.
+
+> 10 | 7 =15
 
 ## XOR ( ^ )
 
 - It is like and , or but the difference is the logic here is
   > - If they are same = 0 1^1 = 0 , 0^0 = 0
   > - If they are different = 1 1^0 = 1 , 0^1 = 1
+  >   > 10^7=13
 
 ## Left Shift ( << )
 
 - Every Numbers have .0 at the end => 1.0 ,32.0 ….
+  > 10 <<2 =40
 
 ## Right shift ( >> )
+
+- shifting bit to the right
+  > 10 >>2 =2
 
 ## indentations
 
@@ -171,11 +251,19 @@
   > - If condition is evaluated to True, the code inside the body of if is executed.
   > - If condition is evaluated to False, the code inside the body of if is skipped.
 - Syntax:
+  > if condition:
+  >
+  > > body of if statements
 
 # If…else statement
 
 - An if statement can have an optional else clause.
   The syntax of if...else statement is:
+  > if condition:
+  >
+  > > block of if condtion is True \
+  > > else: \
+  > > block of if condtion is False
 
 # If…elif…else Statement
 
@@ -208,6 +296,11 @@
 # Error handling
 
 - For handling errors we use try…except blocks.
+  > Try:
+  >
+  > > #code that may cause exception \
+  > > except: \
+  > > #code to run when exception occurs
 
 # Loops
 
@@ -226,6 +319,10 @@ In computer programming, loops are used to repeat a block of code.
   certain number of times. It is used to iterate over any
   sequences such as list, tuple, string, etc.
 - Syntax:
+  > for val in sequence:
+  >
+  > > #statement
+  >
   > - Sequence is a list,tuple,string or range.
   > - Val is a variable which will hold the iteration from the sequence.
 
@@ -243,6 +340,9 @@ In computer programming, loops are used to repeat a block of code.
 
 - Python while loop is used to run a specific code until a certain condition is met.
 - Syntax:
+  > while condition:
+  >
+  > > #body of while loop
 
 # Difference between for and while
 
@@ -259,7 +359,7 @@ In computer programming, loops are used to repeat a block of code.
 
 - Break used to exit from an infinite loop.
 
-# Output
+## Output
 
 Case:
 
