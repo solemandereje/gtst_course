@@ -76,22 +76,36 @@
 - As we saw, the previous method they create strings only.
 - So to create other data types we use declare.
 - Arrays \
-   a. Arrays are lists or tuples on python. \
-   b. Syntax:
-  > i) var=(“list1” “list2” “list3” “list4) \
-  > ii) TO display echo
-  > (1) ${var[0]}
-  > iii) To get all the elements
-  > (1) ${var[@]}
-  > iv) To get the indexes
-  > (1) ${!var[@]}
-  > v) To get the length
-  > (1) ${#var[@]}
-  > vi) To add element to the array
-  > (1) var[4]=”list5”
-  > vii) To remove from the array
-  > (1) unset var[3]
+  a. Arrays are lists or tuples on python. \
+  b. Syntax:
+
+  > i. var=(“list1” “list2” “list3” “list4) \
+  > ii. TO display echo
+  >
+  > - ${var[0]}
+
+  > iii. To get all the elements
+  >
+  > - ${var[@]}
+
+  > iv. To get the indexes
+  >
+  > - ${!var[@]}
+
+  > v. To get the length
+  >
+  > - ${#var[@]}
+
+  > vi. To add element to the array
+  >
+  > - var[4]=”list5”
+
+  > vii. To remove from the array
+  >
+  > - unset var[3]
+
   # Bash Input
+
 - On bash we have 2 methods to accept input
 
 1. Read function
@@ -123,28 +137,28 @@
   # Bash sleep
   - Sleep used to make a good waiting on our script.
   - Syntax:
-    > - sleep <number>s
+    > - sleep [number]s
 
 # Operation
 
 - To do mathematical operations you have to do $(( expression ))
-- we will use let keyword for assigning variable \
+- we will use let keyword for assigning variable
 
-## A) Arithmetic Operations \
+## A) Arithmetic Operations
 
-a) Addition $(( a + b )) \
- b) Subtraction $(( a - b )) \
- c) Multiplication $(( a \_ b )) \
- d) Division $(( a / b ))
-e) Exponential $(( a \*\* b ))
-f) Modulo $(( a % b ))
+a) Addition \$(( a + b )) \
+ b) Subtraction \$(( a - b )) \
+ c) Multiplication \$(( a \* b )) \
+ d) Division \$(( a / b )) \
+e) Exponential \$(( a \*\* b )) \
+f) Modulo \$(( a % b ))
 
 ## B) Assignment Operations
 
-a) Increment “let a+= 3”
-b) Decrement “ let a-= 3”
-c) Multiply “ let a\_= 3 “
-d) Divide “ let a/=3 “
+a. Increment “let a+= 3” \
+b. Decrement “ let a-= 3” \
+c. Multiply “ let a\*= 3 “ \
+d. Divide “ let a/=3 “
 
 ## C) Comparison operation
 
@@ -169,3 +183,9 @@ d) Divide “ let a/=3 “
 # if else conditions
 
 - syntax
+  > if [condtion] \
+  > then \
+  > #STATEMENTS \
+  > else \
+  > #STATEMENTS \
+  > fi
